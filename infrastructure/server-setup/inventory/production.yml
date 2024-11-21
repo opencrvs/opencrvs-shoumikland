@@ -58,6 +58,7 @@ docker-manager-first:
 #       ansible_host: '33.33.33.33'
       # If you are using a jump server to access this environment, enter other SSH args here.
       # ansible_ssh_common_args: '-J jump@55.55.55.55 -o StrictHostKeyChecking=no'
+docker-workers: {}
 
 backups:
   hosts:
