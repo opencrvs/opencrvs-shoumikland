@@ -39,5 +39,5 @@ all:
 
 backups-host:
   hosts:
-    shoumikland-backup: # @todo set this to be the hostname of your backup server
+    shoumikland-backup: # @todo set this to be the hostname of your backup server, its should be the same as the hostname
       ansible_host: '5.223.45.193'
